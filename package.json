@@ -59,7 +59,7 @@
         "owner": "zuDskyy",
         "repo": "m3u-player-electron",
         "private": true,
-        "token": "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"
+        "token": <GH-TOKEN>
       }
     },
     "win": {
@@ -69,7 +69,7 @@
         "owner": "zuDskyy",
         "repo": "m3u-player-electron",
         "private": true,
-        "token": "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"
+        "token": <GH-TOKEN>
       },
       "icon": "./build/player.ico"
     },
@@ -80,7 +80,7 @@
         "owner": "zuDskyy",
         "private": true,
         "repo": "m3u-player-electron",
-        "token": "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"
+        "token": <GH-TOKEN>
       }
     },
     "publish": {
