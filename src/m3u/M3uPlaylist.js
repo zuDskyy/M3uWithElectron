@@ -6,7 +6,7 @@ import M3uPlayer from './M3uPlayer'
 import ChannelContext from '../context/useChannelContext'
 const M3uPlaylist = () => {
   
-     const {listdata, error} = ListRequest("https://m3u-server.herokuapp.com/")
+     const {listdata, error} = ListRequest("https://m3u-server.glitch.me/")
      const tvregex = /.*,/g
      const groupregex= (item) => item.title.match(/.*group-title="/g)
      const tvname = (item) =>  item.title.replace(tvregex,'');
